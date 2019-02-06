@@ -10,7 +10,7 @@ The goal of this project is to provide an OpenFaaS function which converts files
 
 JODConverter comes with a `jodconverter-cli` which talks to a locally installed office application.
 
-We use `eugenmayer/jodconverter:base` to install the LibreOffice application and deactivate its entrypoint which normally attempts to run a server application, instead we use OpenFaaS to execute jodconverter-cli.
+We use `eugenmayer/jodconverter:base` to install the LibreOffice application and deactivate its entrypoint which normally attempts to run a server application, instead we use OpenFaaS to execute `jodconverter-cli`.
 
 == Usage
 
