@@ -1,0 +1,11 @@
+= JODConverter Serverless Function
+:toc:
+
+== Usage
+
+----
+$ curl --request POST \
+    --url http://localhost:8080/function/jodconverter-pdf \
+    --header 'X-File: sample.doc' \
+    --data-binary "@sample.doc" > sample.pdf
+----

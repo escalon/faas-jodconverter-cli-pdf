@@ -1,0 +1,12 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+functions:
+  jodconverter-cli-pdf:
+    lang: dockerfile
+    handler: ./jodconverter-cli-pdf
+    image: escalon/jodconverter-cli-pdf:latest
+    environment:
+      read_timeout: 120
+      write_timeout: 120
+      exec_timeout: 120
