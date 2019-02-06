@@ -6,7 +6,7 @@ https://github.com/sbraconnier/jodconverter[JODConverter] is a LibreOffice/OpenO
 
 The existing docker images for https://github.com/sbraconnier/jodconverter[JODConverter] provide a ReST Service, e.g. https://github.com/EugenMayer/officeconverter[eugenmayer/kontextwork-converter].
 
-The goal of this project is to provide an OpenFaaS function which converts files to PDF/A.
+The goal of this project is to provide an https://www.openfaas.com/[OpenFaaS] function which converts files to PDF/A.
 
 JODConverter comes with a `jodconverter-cli` which talks to a locally installed office application.
 
