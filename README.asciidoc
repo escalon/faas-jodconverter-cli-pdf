@@ -14,6 +14,8 @@ We use `eugenmayer/jodconverter:base` to install the LibreOffice application and
 
 == Usage
 
+JODConverter requires a proper file extension to identify the input format. Hence we need to pass the file name with an `X-File` http header.
+
 ----
 $ curl --request POST \
     --url http://localhost:8080/function/jodconverter-pdf \
